@@ -17,20 +17,108 @@ body{
 }
 
 .header-logo{
+    display: inline-block;
     font-size: 80px;
     line-height: 94px;
     color: #4BCAFF;
-    margin-bottom: 38px;
+    margin-bottom: 38px;    
 }
 
 .header-logo-changes{
     color: black;
 }
 
+.header-logo:hover,
+.header-logo-link:focus {
+    opacity: 0.5;
+    outline: none;
+}
+
 .header-navbar-list{
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    padding: 24px 132px 18px 160px;
-    border: 1px solid red;
+    flex-grow: 1;
+    background: #35444F;
+    padding: 0 140px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header-navbar-link{
+    color: #FFFFFF;
+    display: block;
+    border-left: 1px solid white;
+    padding: 24px 38px 18px 38px;
+    }
+.header-navbar-list li:last-child{
+    border-right: 1px solid white;
+}
+.header-navbar-link:hover,
+.header-navbar-link:focus{
+    background: #222F3A;
+    outline: none;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 48px;
+}
+
+.main-list{
+    width: 344px;
+    margin-right: 52px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+.main-list-link{
+    display: block;
+    color: #485863;
+    padding: 25px 0 25px 44px;
+}
+
+.main-list-link:hover,
+.main-list-link:focus{
+    background: #DBDBDB;
+    color: black;
+    padding-left: 70px;
+    outline: none;
+}
+.main-img-border{
+    border: 1px solid black;
+    overflow: hidden;
+    }
+.main-img{
+    width: 885px;
+    height: 525px;
+    background-image: url(../img/main-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px 381px;
+    transition: 2s; 
+}
+
+.main-img:hover{
+    transform: scale(2);  
+}
+
+.main-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
 }
