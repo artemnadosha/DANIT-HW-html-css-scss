@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-    max-width: 1460px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,13 +47,14 @@ body {
 .header-logo {
     max-width: 216px;
     max-height: 33px;
+    flex-grow: 1;
 }
 
 .header-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 420px;
+    min-width: 500px;
 }
 
 .telefon {
@@ -320,6 +321,6 @@ body {
 }
 
 .phone {
-    background-image: url(/img/icon-phone.svg); 
+    background-image: url(../img/icon-phone.svg); 
 }
 
