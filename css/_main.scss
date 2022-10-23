@@ -1,0 +1,225 @@
+@import './variables';
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -63px;
+    
+}
+
+.wrapper-card {
+    width: 444px;
+    padding: 31px 60px 38px 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+    position: relative;
+    &::before {
+        content: '';
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        background-color: $colorMain;
+        left: 0;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sing {
+    color: $colorBlack;
+    @include bigFont;
+}
+
+.log {
+    &-link {
+        color: $colorMain;
+        @include smallFont;
+        text-decoration: none;
+        transition: $transitionSlow;
+        &:hover {
+            color: $hoverColor;
+            text-decoration: underline;
+        }
+    }
+}
+
+.login-mail {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.login-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 3px;
+    position: relative;
+    &::after {
+        content: '';
+        background: #2B0D09;
+        mix-blend-mode: normal;
+        width: 1px;
+        height: 28px;
+        opacity: 0.1;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        left: 47px;
+    }
+}
+
+.bg-blue {
+    background: #022263;
+}
+.bg-red {
+    background: #AB1F09;
+}
+.icon-facebook {
+    background-image: url(../img/icon-facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 24px;
+    height: 24px;
+    margin: 11px 32px 11px 10px;
+}
+.icon-text {
+    color: white;
+    @include mediumFont;
+}
+
+.icon-google {
+    background-image: url(../img/icon-google.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+    height: 19px;
+    margin: 14px 38px 13px 10px;
+}
+.wrapper-or{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position: relative;
+    margin-top: 15px;
+    &::after {
+        content: '';
+        background: #F2F2F2;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.or {
+    @include smallFont;
+    color: #848484;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    padding: 0 3px 3px 3px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input {
+    width: 100%;
+    padding: 16px 20px;
+    @include smallFont;
+    color: $colorBlack;
+    border: 1px solid $colorBorder;
+    border-radius: 4px;
+    outline: none;
+    &::placeholder {
+        color: $colorGray;
+        @include smallFont;
+    }
+    &:focus {
+        border: none;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    }
+}
+.terms-conditions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.checkbox-hidden {
+    display: none;
+    &:checked ~ .checkbox {
+        background-image: url(../img/checkbox.svg);
+        background-size: 14px 14px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+.checkbox {    
+    width: 20px;
+    height: 20px;
+    border: 1px solid $colorBorder;
+}
+
+.rules {
+    @include smallFont;
+    color: $colorBlack;
+    &-link {
+        color: $colorMain;
+        text-decoration: none;
+        transition: $transitionSlow;
+        &:hover {
+            color: $hoverColor;
+            text-decoration: underline;
+        }
+    }
+}
+
+.form-action {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 0;
+    margin-top: 8px;
+    background: $colorMain;
+    @include mediumFont;
+    color: white;
+    transition: $transitionSlow;
+    &:hover {
+        background-color: $hoverColor;
+    }
+}
+
+
+
+
+
+
+
+
+
+
