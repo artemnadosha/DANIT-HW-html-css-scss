@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import url(normalize.css);
 
 *{
     text-decoration: none;
@@ -96,7 +96,7 @@ body{
 .main-img{
     width: 885px;
     height: 525px;
-    background-image: url(../img/main-img.png);
+    background-image: url(main-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 320px 381px;
