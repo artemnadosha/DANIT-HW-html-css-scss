@@ -249,7 +249,7 @@ body {
 
 .partners-item-1 {
     background: #634F2C;
-    background-image: url(../img/logo-EID.png);
+    background-image: url(logo-EID.png);
     background-repeat: no-repeat;
     background-size: 185px 49px;
     background-position: center center;
@@ -257,7 +257,7 @@ body {
 
 .partners-item-2 {
     background: #635A4A;;
-    background-image: url(../img/logo-arsenal.png);
+    background-image: url(logo-arsenal.png);
     background-repeat: no-repeat;
     background-size: 190px 42px;
     background-position: center center;
@@ -279,7 +279,7 @@ body {
 
 .partners-item-4 {
     background: #B08C4D;
-    background-image: url(../img/logo-setgroup.png);
+    background-image: url(logo-setgroup.png);
     background-repeat: no-repeat;
     background-size: 119px 53px;
     background-position: center center;
@@ -287,7 +287,7 @@ body {
 
 .partners-item-5 {
     background: #E4B564;;
-    background-image: url(../img/logo-arsenal.png);
+    background-image: url(logo-arsenal.png);
     background-repeat: no-repeat;
     background-size: 190px 42px;
     background-position: center center;
@@ -295,7 +295,7 @@ body {
 
 .partners-item-6 {
     background: #634F2C;
-    background-image: url(../img/logo-EID.png);
+    background-image: url(logo-EID.png);
     background-repeat: no-repeat;
     background-size: 185px 49px;
     background-position: center center;
@@ -303,7 +303,7 @@ body {
 
 .partners-item-7 {
     background: #634F2C;
-    background-image: url(../img/logo-EID.png);
+    background-image: url(logo-EID.png);
     background-repeat: no-repeat;
     background-size: 185px 49px;
     background-position: center center;
@@ -321,6 +321,6 @@ body {
 }
 
 .phone {
-    background-image: url(../img/icon-phone.svg); 
+    background-image: url(icon-phone.svg);
 }
 
